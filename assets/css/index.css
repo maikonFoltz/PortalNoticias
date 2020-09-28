@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-size: 12px;
+    font-family: Arial;
 }
 .topo{
     height: 30px;
@@ -8,7 +10,39 @@ body{
 .topoInt{
     width: 100%;
     max-width: 1040px;
-    height: 30px;
-    background-color: rgb(19, 177, 124);
+    height: 30px;   
     margin: auto;
 }
+.topoleft{
+    width: 50%;
+    height: 30px;
+    float: left;   
+
+}
+.toporight{
+    width: 50%;
+    height: 30px;
+    float: right;   
+}
+.topoleft ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+.topoleft li {
+    right: 30px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 30px;
+    color: white;
+}
+
+.topoleft li a {
+    text-decoration: none;
+    color: white;
+}
+.topoleft li a:hover{ 
+    color: rgb(103, 176, 235);  
+}
+
