@@ -5,7 +5,8 @@ body{
 }
 .topo{
     height: 30px;
-    background-color: black;
+    background-color:black;
+    color: white;
 }
 .topoInt{
     width: 100%;
@@ -22,7 +23,9 @@ body{
 .toporight{
     width: 50%;
     height: 30px;
-    float: right;   
+    float: right;
+    margin-top: 2px; 
+
 }
 .topoleft ul {
     margin: 0;
@@ -44,5 +47,18 @@ body{
 }
 .topoleft li a:hover{ 
     color: rgb(103, 176, 235);  
+}
+
+.topoBusca{
+    width: 110px;
+    height: 18px;    
+}
+.toporight a{
+    float: right;
+
+}
+.toporight input{
+    float: right;
+
 }
 
