@@ -61,4 +61,37 @@ body{
     float: right;
 
 }
+.toporight img{
+    margin-right: 1px;
+    margin-left: 1px;
+}
 
+/*____________*/
+
+.topo2{
+    height: 95px; 
+    color:black;
+  
+}
+.topo2int{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;   
+    margin: auto;
+  
+}
+
+.logo{
+    width: 230px;
+    height: 95px;
+    float: left;
+    margin-top: 12px;
+}
+.topo2 .banner{
+    width: 650px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: red;
+}
