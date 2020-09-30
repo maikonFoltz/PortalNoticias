@@ -147,3 +147,68 @@ body{
     background-color: black;
     color: white;
 }
+
+/*ultimasnoticias*/
+
+.ultimasnoticias{
+    height: 40px;   
+}
+
+.ultimasnoticiasint{
+    margin: auto;
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    line-height: 50px;
+    
+}
+.areanoticia{
+    height: 28px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.ultimanoticiastitulo{
+    background-color: red;
+    color: white;
+    height: 28px;
+    display: inline-block;
+    line-height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.ultimanoticiasresumo{
+    color: black;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 8px;
+
+}
+.containerint{
+    margin: auto;
+    width: 100%;
+    max-width: 1040px;
+    background-color: beige;
+}
+
+/*container*/
+
+.rightside{
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    background-color: rgb(110, 112, 112);
+    margin-left: 12px;
+}
+
+.leftside{
+    width: 753px;
+    min-height: 200px;
+    float: left;
+    background-color: rgb(54, 175, 175)
+}
