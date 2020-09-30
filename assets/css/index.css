@@ -208,12 +208,24 @@ body{
     float: right;    
     margin-left: 12px;
 }
-
+/*SLIDE SHOW FORMATAÇÃO DO LADO ESQUERDO*/
 .leftside{
-    width: 753px;
-    min-height: 200px;
+    width: 753px;  
     float: left;
-    background-color: rgb(54, 175, 175)
+  
+}
+.slideshow{
+    height: 335px;
+    background-color: #ccc;
+    overflow: hidden;/* tudo que sair da are essa propriedade vai ocultar*/
+}
+.slideshowarea{
+    height: 335px;
+  
+}
+.slide{
+    height: 335px;
+    float: left;
 }
 
 /*formatação lateral direita*/
