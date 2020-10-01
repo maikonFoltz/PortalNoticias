@@ -257,3 +257,38 @@ body{
     text-align: left;
     border-bottom: 1px solid #ccc;
 }
+
+.slideinfo{
+    height: 60px;
+    background-image: url("../images/fundo.png");
+    background-size: auto 70px;
+    margin-top: 265px;
+
+}
+.slide_titulo{
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.slide_subtitulo{
+    font-size: 13px;
+    color: white;
+    padding-left: 20px;
+}
+.bolinhas{
+    position:absolute;
+    width: 200px;
+    height: 20px;
+    
+}
+.verbolinha{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 10px;
+    
+}
