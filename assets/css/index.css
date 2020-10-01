@@ -218,6 +218,7 @@ body{
     height: 335px;
     background-color: #ccc;
     overflow: hidden;/* tudo que sair da are essa propriedade vai ocultar*/
+    margin-bottom: 20px;
 }
 .slideshowarea{
     height: 335px;
@@ -290,5 +291,33 @@ body{
     cursor: pointer;
     background-color: #ccc;
     border-radius: 10px;
+
+}
+
+/*-----------------------------------noticia abaixo do slide---------------------------------*/
+
+.noticiaarea1{
+    width: 430px;
+    float: left;
+    height: 420px;
+   
+}
+.noticiaarea2{
+    width: 320px;
+    height: 420px;
+    float: left;
+    
+}
+
+
+.noticiaimg{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+.noticiatitulo{
+    margin-left: 6px;
+    font-size: 16px;
     
 }
